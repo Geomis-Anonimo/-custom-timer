@@ -1,0 +1,37 @@
+.timer-container-saved {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  width: 400px;
+  background-color: #a4ad9e;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: Arial;
+  margin-top: 10px;
+}
+
+timer-display-saved {
+  border: 2px solid #1e271e;
+  padding: 18px 20px;
+  margin: 20px;
+  margin-bottom: 30px;
+  font-size: 45px;
+  background-color: #fefffc;
+  border-radius: 20px;
+}
+
+button {
+  background-color: #00be6f;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #01a35f;
+  transition: 0.3s;
+}
